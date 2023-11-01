@@ -1,0 +1,6 @@
+{{
+	{
+		"groupId": this.params.id,
+		"name": this.params.name
+	}
+}}
