@@ -102,10 +102,10 @@
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{navigateTo('Students', {}, 'SAME_WINDOW');}}",
+            "onClick": "",
             "buttonType": "SIMPLE",
             "iconName": "person",
-            "buttonColor": "#be185d",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
             "index": 1,
@@ -133,7 +133,8 @@
         {"key": "groupButtons.groupButton91emiajr00.buttonColor"},
         {"key": "groupButtons.groupButtonbw9mpyi3qf.buttonColor"},
         {"key": "groupButtons.groupButtonsaeqguolxg.buttonColor"},
-        {"key": "groupButtons.groupButton1.buttonColor"}
+        {"key": "groupButtons.groupButton1.buttonColor"},
+        {"key": "groupButtons.groupButton2.buttonColor"}
     ],
     "key": "je3x7exw2a",
     "orientation": "horizontal",
