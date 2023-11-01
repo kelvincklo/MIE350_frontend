@@ -32,7 +32,7 @@
       "queryParameters": [],
       "body": "{{\n\t{\n\t\t\"groupId\": this.params.id,\n\t\t\"name\": this.params.name\n\t}\n}}",
       "bodyFormData": [],
-      "httpMethod": "PUT",
+      "httpMethod": "GET",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
