@@ -19,6 +19,10 @@
     {
       "id": "StudentGroup",
       "isDefault": false
+    },
+    {
+      "id": "Administrator",
+      "isDefault": false
     }
   ],
   "viewMode": false,

@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "StudentGroup",
-    "collectionId": "StudentGroup_JSObject1",
+    "pageId": "Administrator",
+    "collectionId": "Administrator_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -27,6 +27,7 @@
       ]
     },
     "executeOnLoad": false,
+    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -38,9 +39,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-08-19T01:38:48Z"
   },
-  "id": "StudentGroup_JSObject1.counter",
+  "id": "Administrator_JSObject1.counter",
   "deleted": false,
-  "gitSyncId": "65425bf95457b40f724728d7_65426b0f5457b40f72472926"
+  "gitSyncId": "65425bf95457b40f724728d7_6542689f5457b40f72472918"
 }
