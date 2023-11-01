@@ -15,6 +15,10 @@
     {
       "id": "Room",
       "isDefault": false
+    },
+    {
+      "id": "StudentGroup",
+      "isDefault": false
     }
   ],
   "viewMode": false,

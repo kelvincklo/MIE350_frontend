@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Room",
-    "slug": "room",
+    "name": "StudentGroup",
+    "slug": "studentgroup",
     "layouts": [
       {
         "viewMode": false,
@@ -13,9 +13,9 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 540,
           "containerStyle": "none",
-          "snapRows": 67,
+          "snapRows": 70,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -25,10 +25,21 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "StudentGroup_get_student_group_list",
+              "name": "get_student_group_list",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Room",
+        "id": "StudentGroup",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "65425c33839f4d557ba4cad6_65425d1038c7ad438e1dede9"
+  "gitSyncId": "65425bf95457b40f724728d7_654260165457b40f724728ef"
 }
